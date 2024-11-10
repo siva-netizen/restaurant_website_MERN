@@ -1,0 +1,24 @@
+.sideplate {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hidden initially */
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .sideplate.open {
+    right: 0; /* Slide in */
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
